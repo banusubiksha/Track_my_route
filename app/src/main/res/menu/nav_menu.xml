@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home_home"
+            android:title="Home"/>
+    <item
+            android:id="@+id/nav_Education"
+            android:icon="@drawable/nav_school"
+            android:title="Education">
+            <menu>
+                <item android:id="@+id/nav_school_primary"
+                      android:title="Primary School"
+                      android:icon="@drawable/alp"
+                    />
+                <item android:id="@+id/nav_school_secondary"
+                      android:title="Secondary School"
+                      android:icon="@drawable/sec"
+
+                    />
+                <item android:id="@+id/nav_college"
+                      android:title="College"
+                    android:icon="@drawable/coll"
+                    />
+                <item android:id="@+id/nav_university"
+                      android:title="University"
+                    android:icon="@drawable/gra"
+                    />
+          </menu>
+    </item>
+    <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/nav_restaurant"
+            android:title="Restaurant"/>
+
+
+    <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/nav_hospital"
+            android:title="Hospitality">
+            <menu>
+                 <item android:id="@+id/nav_clinic"
+                     android:title="Clinic"
+                     android:icon="@drawable/cli"/>
+
+                 <item android:id="@+id/nav_govt"
+                     android:title="Government Hospital"
+                     android:icon="@drawable/gov"/>
+
+                 <item android:id="@+id/nav_private"
+                     android:title="Private Hospital"
+                     android:icon="@drawable/pri"/>
+
+                 <item android:id="@+id/nav_dentist"
+                      android:title="Dental Clinic"
+                      android:icon="@drawable/tooth"/>
+
+                 <item android:id="@+id/nav_homoeo"
+                       android:title="Homoeo Clinic"
+                       android:icon="@drawable/homo"/>
+
+
+                 <item android:id="@+id/nav_skincare"
+                      android:title="Skincare Clinic"
+                android:icon="@drawable/beauty"/>
+            </menu>
+
+    </item>
+    <item
+        android:id="@+id/nav_bank"
+        android:icon="@drawable/nav_hospital"
+        android:title="Bank">
+        <menu>
+            <item android:id="@+id/nav_axis_bank"
+                android:title="Axis Bank"
+                android:icon="@drawable/axi"/>
+            <item android:id="@+id/nav_baroda_bank"
+                android:title=" Bank of Baroda"
+                android:icon="@drawable/baroda"/>
+            <item android:id="@+id/nav_state_bank"
+                android:title="State Bank of India"
+                android:icon="@drawable/sbib"/>
+            <item android:id="@+id/nav_canara_bank"
+                android:title="Canara Bank of India"
+                android:icon="@drawable/canara"/>
+            <item android:id="@+id/nav_central_bank"
+                android:title="Central Bank of India"
+                android:icon="@drawable/cbi"/>
+            <item android:id="@+id/nav_union_bank"
+                android:title="City Union Bank"
+                android:icon="@drawable/cub"/>
+            <item android:id="@+id/nav_hdfc_bank"
+                android:title="HDFC Bank"
+                android:icon="@drawable/hdfc"/>
+            <item android:id="@+id/nav_icic_bank"
+                android:title="ICIC Bank"
+                android:icon="@drawable/icic"/>
+            <item android:id="@+id/nav_indian_bank"
+                android:title="Indian Bank"
+                android:icon="@drawable/bi"/>
+
+
+        </menu>
+
+    </item>
+    <item
+            android:id="@+id/nav_atm"
+            android:icon="@drawable/nav_atm"
+            android:title="ATM"/>
+    <item
+        android:id="@+id/nav_gas_station"
+        android:icon="@drawable/nav_gas_station"
+        android:title="Gas Station"/>
+    <item
+            android:id="@+id/nav_tour"
+            android:icon="@drawable/nav_tour"
+            android:title="Tourist Place"/>
+    <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About Us"/>
+
+</menu>
